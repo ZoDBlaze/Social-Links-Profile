@@ -1,0 +1,65 @@
+:root {
+   --Green: hsl(75, 94%, 57%);
+   --White: hsl(0, 0%, 100%);
+   --Grey: hsl(0, 0%, 20%);
+   --Dark-Grey: hsl(0, 0%, 12%);
+   --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--Off-Black);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: var(--White);
+  padding: 100px 0;
+}
+
+img {
+  border-radius: 100%;
+  height:  80px;
+  width: 80px;
+}
+
+.main-div {
+  padding: 50px 0;
+  background-color: var(--Dark-Grey);
+  width: 30%;
+  margin: 0 27rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.btn {
+  color: var(--White);
+  display: block;
+  background-color: var(--Grey);
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px 0;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: var(--Green);
+  color: var(--Off-Black);
+}
+
+.name {
+  font-weight: 400;
+}
+
+.bio {
+  color: var(--Green);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: block;
+}
